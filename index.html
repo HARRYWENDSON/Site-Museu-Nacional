@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Museu Nacional</title>
+		<meta charset="utf-8">
+
+		<!-- Normalize CSS -->
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<!-- Estilo customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		<div id="container"><!--Inicio container-->
+			<header><!--Inicio header-->
+				<div id="logo">
+					<h1><a href="">Museu Nacional</a></h1>
+				</div>
+
+				<nav><!--Inicio nav-->
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Exposições</a></li>
+						<li><a href="">Pesquisa</a></li>
+						<li><a href="">Acervo</a></li>
+						<li><a href="">vídeos</a></li>
+						<li><a href="">Fotos</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</nav><!--Fim nav-->
+
+			</header><!--Fim header-->
+
+			<div id="principal"><!--Inicio principal-->
+				<div id="conteudo"><!--Inicio conteudo-->
+					<section id="capa">
+						<img src="css/imagens/museu.png">
+					</section>
+					<section id="postagens">
+
+						<article id="video">
+							<h3>video: conheça o museu</h3>
+							<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
+						</article>
+
+						<article id="mapa">
+							<h3>Mapa: Encontre o Museu</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2063116653194!2d-43.22871758520151!3d-22.905759985012363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1614787314175!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</article>
+
+						<article id="exposicoes">
+							<h3>Exposições</h3>
+							<ul>
+								<li>
+									<a href="">Os assustadores insetos</a>
+								</li>
+								<li>
+									<a href="">O crânio de luzia, a mulher mais antiga do Brasil</a>
+								</li>
+								<li>
+									<a href="">Preguiça gigante e tigre-dentes-de-sabre</a>
+								</li>
+								<li>
+									<a href="">Plantas do Brasil central</a>
+								</li>
+								<li>
+									<a href="">Teresa cristina: A imperatriz arqueóloga</a>
+								</li>
+								<li>
+									<a href="">arte com dinossauros - paleoarte</a>
+								</li>
+								<li>
+									<a href=""><strong>Veja todos (65)</strong></a>
+								</li>
+							</ul>
+						</article>
+						<article id="historia">
+							<h3>200 anos de história</h3>
+							<p>
+								Para ampliar o potencial de captação dos recursos necessários à reconstrução do Museu Nacional (MN), a Associação Amigos do Museu Nacional (Samn) está autorizada pela UFRJ a buscar patrocínios para o restauro, obras e projetos da instituição bicentenária de grande relevância científica e cultural. Os patrocinadores, inclusive, poderão contar com incentivos fiscais para o apoio, de acordo com as normas e os procedimentos da Secretaria Especial de Cultura do Ministério do Turismo. 
+							</p>
+							<a href="">Leia mais</a>
+						</article>
+
+					</section>
+				</div><!--Fim conteudo-->
+
+				<aside><!--Inicio aside-->
+					<section id="depoimento">
+						<img src="css/imagens/depoimento.png">
+					</section>
+					<section id="visita"><!--Inicio visita-->
+						<h4>Faça uma visita</h4>
+						<form>
+							<fieldset>
+								<legend>Selecione uma data</legend>
+
+								<label for="data">Data</label>
+								<input class="campo" type="text" name="data" value="dd/mm/aaaa">
+
+								<label for="qtd">Qtd pessoas</label>
+								<input class="campo" style="width: 30px" type="text" id="qtd" value="1">
+							</fieldset>
+
+							<input class="botao" type="submit" value="Verificar disponibilidade">
+
+						</form>
+					</section><!--Fim visita-->
+
+					<section id="galeria">
+						<h4>Galeria de Fotos</h4>
+
+						<a href="">
+							<img src="css/imagens/imagem1.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+						<a href="">
+							<img src="css/imagens/imagem2.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+						<a href="">
+							<img src="css/imagens/imagem3.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+						<a href="">
+							<img src="css/imagens/imagem4.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+
+					</section>
+
+				</aside><!--Fim aside-->
+
+				<footer style="clear: both;">
+					<p>
+						<a href="">home</a>
+						<a href="">exposições</a>
+						<a href="">pesquisa</a>
+						<a href="">acervos</a>
+						<a href="">vídeos</a>
+						<a href="">fotos</a>
+						<a href="">contato</a>
+					</p>
+					<p>
+						2021 <a href="">Meseu Nacinonal</a> - Todos os direitos reservados.
+					</p>
+					
+				</footer>
+			</div><!--Fim principal-->
+
+		</div><!--Fim container-->
+	</body>
+</html>
